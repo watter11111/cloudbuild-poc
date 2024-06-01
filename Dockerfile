@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:2.16.1-gpu-jupyter
+FROM google/cloud-sdk:478.0.0
 
 RUN pip install numpy
 
