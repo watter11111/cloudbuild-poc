@@ -1,3 +1,3 @@
 FROM alpine
 
-pip install numpy
+RUN pip install numpy
