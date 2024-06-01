@@ -3,3 +3,5 @@ steps:
   args:
   - --destination=asia-east1-docker.pkg.dev/nekroo-poc/poc-gar-repo-1/cache-test
   - --cache=true
+options:
+ machineType: 'E2_HIGHCPU_8'
