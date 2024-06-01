@@ -1,0 +1,5 @@
+steps:
+- name: 'gcr.io/kaniko-project/executor:latest'
+  args:
+  - --destination=asia-east1-docker.pkg.dev/nekroo-poc/poc-gar-repo-1/cache-test
+  - --cache=true
